@@ -1,0 +1,11 @@
+.trueOrders{
+  
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 35px;
+    letter-spacing: -0.04em;
+    color:#fff;
+    margin-right:15%;
+    padding-right:50px
+}

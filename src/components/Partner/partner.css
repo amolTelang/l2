@@ -1,0 +1,22 @@
+.partner__section{
+        display: flex;
+        flex-direction: row;
+        height:80vh;
+    
+}
+/* .partner__content{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    margin-right: 5rem;
+} */
+
+.orderDetails__content{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    
+}

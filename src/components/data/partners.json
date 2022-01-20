@@ -1,0 +1,53 @@
+{
+    "type":"PartnerCollection",
+    "crs":{
+        "type": "name",
+        "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+    },
+    "features":[
+        {
+            "type":"Dharwad",
+            "properties":{
+                "id":"001",
+                "NAME":"Panjurli Restraunt",
+                "ADDRESS":"PB Road, SH1, beside SBI ATM, Saraswatpur, Dharwad, Karnataka 580002",
+                "AVAILABLE":"Yes",
+                "img":"https://lh5.googleusercontent.com/p/AF1QipPV2xPDX5J-RL4q39uj2U3mdkjZGPl4q2gdm7UG=s387-p-k-no"
+            },
+            
+                "geometry":{
+                    "type":"Point",
+                    "coordinates":[16.1388,77.9803]
+                }
+            
+        },
+        {
+            "type":"Dharwad",
+            "properties":{
+                "id":"002",
+                "NAME":"Nuggikeri Temple",
+                "ADDRESS":"Nuggikeri Hunuman Temple Rd",
+                "AVAILABLE":"Yes",
+                "img":"https://lh5.googleusercontent.com/p/AF1QipOGK1nxk0skgCOfr0rE736PjMM8rZlsTRqutlVq=s451-k-no"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[15.409644913235336, 75.00304972611549]
+            }
+        }
+
+
+
+
+
+
+    ]
+
+
+
+
+
+
+
+
+}

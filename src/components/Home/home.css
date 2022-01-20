@@ -1,0 +1,20 @@
+.gradient__bg3{
+     /* ff 3.6+ */
+     background:-moz-linear-gradient(90deg, rgba(18, 20, 26, 1) 19%, rgba(34, 26, 80, 1) 100%); 
+
+     /* safari 5.1+,chrome 10+ */
+     background:-webkit-linear-gradient(90deg, rgba(18, 20, 26, 1) 19%, rgba(34, 26, 80, 1) 100%);
+ 
+     /* opera 11.10+ */
+     background:-o-linear-gradient(90deg, rgba(18, 20, 26, 1) 19%, rgba(34, 26, 80, 1) 100%);
+ 
+     /* ie 6-9 */
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#221A50', endColorstr='#12141A', GradientType=0 );
+ 
+     /* ie 10+ */
+     background:-ms-linear-gradient(90deg, rgba(18, 20, 26, 1) 19%, rgba(34, 26, 80, 1) 100%);
+ 
+     /* global 94%+ browsers support */
+     background:linear-gradient(90deg, rgba(18, 20, 26, 1) 19%, rgba(34, 26, 80, 1) 100%);
+ 
+}
