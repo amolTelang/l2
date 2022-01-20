@@ -29,7 +29,7 @@ function PaymentForm({orderDetails}) {
           }
         }
       };
-    const stripePromise=loadStripe('pk_test_51KJEXMSBwt7jm5ZroQqYuvjZlnc5MuyIhcp0an1p4mVlCAMvYbBDDuHhUi2xaVm0JCfzaeR1VRzU8zx3wg18OIIM00CtEz5r5B');
+    const stripePromise=loadStripe(process.env.REACT_APP_STRIPE_API_KEY);
 
     const  handleSubmit=async (event,elements,stripe)=>{
         window.alert("please wait while we complete your transaction")
