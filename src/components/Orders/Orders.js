@@ -3,7 +3,7 @@ import {connect} from 'react-redux';
 import './orders.css'
 
 function Orders({orderDetails}) {
-    {console.log(orderDetails)}
+    
   if(orderDetails.placed==="true")
   return(
       <div>

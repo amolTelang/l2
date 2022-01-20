@@ -42,14 +42,7 @@ function PaymentForm({orderDetails}) {
             console.log('[error]', error);
             window.alert(error.message);
           } else {
-            const orderData = {
-              payment: {
-                gateway: 'stripe',
-                stripe: {
-                  payment_method_id: paymentMethod.id,
-                },
-              },
-            };
+            console.log(paymentMethod);
            window.alert("payment successfull!! redirecting")
            history('/')
            

@@ -1,5 +1,4 @@
-// import api from '../utils/api.js';
-import axios from 'axios';
+
 import {
     sendPlaceName,
 } from './types';

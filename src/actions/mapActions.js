@@ -1,4 +1,4 @@
-import axios from 'axios';
+
 import{
     loadPartnerData
 } from './types';

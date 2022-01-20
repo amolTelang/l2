@@ -1,4 +1,4 @@
-import axios from 'axios'
+
 import {sendOrderDetails} from './types'
 
 export const sendOrder=(partnerDetails,price,noOfBags)=>dispatch=>{

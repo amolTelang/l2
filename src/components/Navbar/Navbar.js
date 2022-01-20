@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-import {Link} from 'react-router-dom';
+
 import logo from '../../logo.svg';
 import './navbar.css';
 
@@ -11,7 +11,7 @@ const Navbar = () => {
     <div className="gpt3__navbar">
       <div className="gpt3__navbar-links">
         <div className="gpt3__navbar-links_logo">
-          <img src={logo} />
+          <img src={logo} alt="logo" />
         </div>
         <div className="gpt3__navbar-links_container">
           <p><a href="/">Home</a></p>

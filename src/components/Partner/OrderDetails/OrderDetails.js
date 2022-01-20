@@ -38,9 +38,9 @@ function OrderDetails({selectedPartner,sendOrder}) {
                     <h3 className="heading gradient__text">No of bags</h3>
                     <div className="incrementDecrement" >
                         <div class="quantity">
-                            <a href="#" class="quantity__minus" onClick={handleDecrement}><span className="minus">-</span></a>
+                            <a  class="quantity__minus" onClick={handleDecrement}><span className="minus">-</span></a>
                             <h5 className="quantity__input" >{count}</h5>
-                            <a href="#" class="quantity__plus" onClick={handleIncrement}><span className="plus">+</span></a>
+                            <a  class="quantity__plus" onClick={handleIncrement}><span className="plus">+</span></a>
                         </div>
                     </div>
                     <h3 className="heading gradient__text">Price per Bag</h3>

@@ -5,7 +5,7 @@ import './header.css';
 import { sendData } from '../../../actions/homeActions';
 import {useNavigate} from 'react-router-dom';
 import {connect} from 'react-redux';
-import PropTypes from 'react-redux';
+
 const Header = ({sendData}) => {
   const [place,setPlace]=useState('Dharwad');
   const history=useNavigate();
@@ -31,13 +31,13 @@ const Header = ({sendData}) => {
       </div>
 
       <div className="gpt3__header-content__people">
-        <img src={people} />
+        <img src={people} alt="image"/>
         <p>Trusted among people</p>
       </div>
     </div>
 
     <div className="gpt3__header-image">
-      <img src={headerImage} />
+      <img src={headerImage} alt="imaghe" />
     </div>
   </div>
 );

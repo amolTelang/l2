@@ -1,13 +1,13 @@
-import React, { useState,useCallback,useRef } from 'react';
+import React, { useState} from 'react';
 
 import ReactMapGL,{Marker,Popup} from "react-map-gl";
-import Geocoder from "react-map-gl-geocoder";
+
 
 import {connect} from 'react-redux'
-import Geocode from 'react-geocode'
+
 import partnerData from '../../data/partners.json'
 import { sendPartnerData } from '../../../actions/mapActions';
-import { sendPlaceName } from '../../../actions/types';
+
 import marker from '../../../assets/marker.png'
 import './styles.css'
 const Map = ({place,map,sendPartnerData}) => {
